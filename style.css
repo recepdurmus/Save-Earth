@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 25vh);
+
+}
+
+.content{
+    border: 1px solid;
+    position: relative;
+}
+
+.content1{
+    background-image: url(img/yCPyoZDQBBcXikqxkeW2jJ-1200-80.jpg);
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+
+.content2{
+    background-image: url(img/pexels-pixabay-60006.jpg);
+    background-size: cover;
+}
+
+.content3{
+    background-image:url(img/pexels-eberhard-grossgasteiger-443446.jpg);
+    background-size: cover;
+}
+
+.content7{
+    grid-column: 3/5;
+    grid-row: 2/4;
+    background-image: url(img/pexels-donald-tong-55787.jpg);
+    background-size: cover;
+    opacity: 1;
+    z-index: -1;
+}
+
+.content5{
+    grid-column: 3/4;
+    grid-row: 2/4;
+    background-image: url(img/e67bbf02b37a237de2c7f4df724825c5.png);
+    background-size:105%;
+    opacity: 0.6;
+  
+}
+
+.content6{
+    background-image: url(img/pexels-roberto-shumski-1903702.jpg);
+    background-size: cover;
+}
+
+.content4{
+    background-image: url(img/pexels-asad-photo-maldives-457876.jpg);
+    background-size: cover;
+}
+
+.content9{
+    background-image: url(img/pexels-bella-white-635279.jpg);
+    background-size: cover;
+}
+
+.content10{
+    background-image: url(img/pexels-leah-kelley-2090645.jpg);
+    background-size: cover;
+}
+
+.content14{
+    background-image: url(img/pexels-fabian-wiktor-994605.jpg);
+    background-size: cover;
+}
+
+.content13{
+    background-image: url(img/pexels-pixabay-210307.jpg);
+    background-size: cover;
+}
+
+.content15{
+    background-image: url(img/pexels-james-wheeler-417074.jpg);
+    background-size: cover;
+}
+
+.content11{
+    background-image: url(img/pexels-melanie-wupperman-662994.jpg);
+    background-size: cover;
+}
+
+.content8{
+    background-image: url(img/pexels-pixabay-210186.jpg);
+    background-size: cover;
+}
+
+.content12{
+    background-image: url(img/pexels-mohamed-sarim-1033729.jpg);
+    background-size: cover;
+}
+
+.content24{
+    grid-column: 4/5;
+    grid-row: 2/4;
+    opacity: ;
+    
+
+}
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+    font-family: fantasy;
+    letter-spacing: 5px;
+}
+
+.input{
+    padding: 5px;
+    font-family:fantasy;
+    
+}
+
+h2{
+    font-family: fantasy;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+#first_name,
+#last_name,
+#email{
+    width: 70%;
+    display: inline-block;
+    border-radius: 8px;
+    border: 1px solid silver;
+    
+
+}
+
+.button{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#button{
+    width: 50%;
+    font-family: fantasy;
+    border-radius: 5px;
+    border: 1px solid silver;
+    cursor: pointer;
+    
+}
+
